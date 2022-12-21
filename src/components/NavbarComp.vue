@@ -1,9 +1,7 @@
  <template>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-      <a class="navbar-brand head1" href="#" style="color: var(--primary)"
-        >Gym Management System</a
-      >
+      <a class="navbar-brand head1" href="#">Gym Management System</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,7 +19,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -51,12 +49,16 @@
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success me-4" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </form>
         <template>
-          <vs-button style="color: var(--primary)" flat>Login</vs-button>
+          <vs-button class="ms-4" style="color: var(--primary)" flat
+            ><b>login</b></vs-button
+          >
           <vs-button style="color: var(--primary)" border
-            >Get Started</vs-button
+            ><b>Get Started</b></vs-button
           >
         </template>
       </div>
