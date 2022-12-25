@@ -1,7 +1,7 @@
 <template>
   <template-view>
     <!-- Registerd Fitness Centers -->
-    <section class="py-5 bg-light">
+    <section class="py-5">
       <div class="container">
         <div class="row g-4">
           <div class="col-md-3">
